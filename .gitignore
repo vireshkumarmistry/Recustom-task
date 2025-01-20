@@ -20,7 +20,6 @@ yarn-debug.log*
 
 # Environment files
 .env
-.env.*
 .env.local
 
 # IDEs and editors
