@@ -1,0 +1,148 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for subtle depth */
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #212121; /* Dark text for contrast, ensuring readability */
+    font-weight: 600; /* Bolded for emphasis */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Use gap for spacing between form elements */
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    font-weight: 500;
+    color: #555; /* Dark gray for labels */
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input:focus {
+    border-color: #213749; /* Matching with the primary color of the theme */
+}
+
+.submitButton {
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+    background-color: #213749; /* Darker shade for hover effect */
+}
+
+.error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.success {
+    color: #213749;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Modal background */
+.modalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+/* Modal header */
+.modalHeader {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Close button (optional, for custom close) */
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Form styles */
+.formGroup {
+    margin-bottom: 15px;
+    align-items: start;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modalInput {
+    margin-bottom: 10px;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.cancelButton {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+}
