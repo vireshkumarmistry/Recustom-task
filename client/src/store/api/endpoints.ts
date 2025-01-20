@@ -3,7 +3,7 @@ import baseApi from './baseApi';
 const endPoints = baseApi.injectEndpoints({
     endpoints: (builder) => ({
         fetchUsers: builder.query<any, void>({
-            query: () => 'users',
+            query: () => 'users/',
             providesTags: ["User"]
         }),
         fetchStats: builder.query<any, void>({
